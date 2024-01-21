@@ -18,7 +18,6 @@ header {
     max-width: 60rem;
     background: #180f4a;
     color: white;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.253);
     text-align: center;
 }
 
@@ -100,6 +99,5 @@ footer {
     max-width: 60rem;
     background: #180f4a;
     color: white;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.253);
     text-align: center;
 }
