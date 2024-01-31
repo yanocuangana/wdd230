@@ -136,6 +136,17 @@ footer {
     width: 100%;
     margin-top: 100px;
     text-align: center;
+}
 
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+iframe{
+    width: 100%;
+    margin-top: 5px;
 }
 
