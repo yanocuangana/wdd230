@@ -3,8 +3,8 @@
         background: skyblue;
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
+        justify-content:space-between;
+        align-items:center;
     
     }
     .link {
@@ -71,7 +71,6 @@
     }
     .mobile-menu-icon .icon{
         width: 30px;
-        margin-top: none;
     }
     .mobile-menu ul{
         display: flex;
