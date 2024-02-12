@@ -7,7 +7,7 @@
 body {
 
     font-family: 'Roboto', sans-serif;
-    background: #9a93b9;
+    background: white;
     width: 100vw;
     font-size: 14px
 }
@@ -19,6 +19,8 @@ header {
     background: #180f4a;
     color: white;
     text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 header p {
@@ -29,62 +31,48 @@ header h1 {
     font-size: 1.5rem;
 }
 
-main {
+nav{
     margin: 0 auto;
     padding: 0.75rem;
     max-width: 60rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-
+    background-color: black;
     
 }
 
-img {
-    max-width: 100%;
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 
-section {
-    background-color: #acabb1;
-    border-radius: 10px;
-}
-
-h2,
-h3 {
-    margin: 0;
-}
-
-section h2 {
-    background-color: #180f4a;
-    padding: 7px;
+li>a{
+    text-decoration: none;
+    margin: 5px;
     color: white;
-    border-radius: 10px 10px 0 0;
+    font-family: sans-serif;
+    font-size: 15px;
 }
 
-section>div {
-    padding: 10px;
+li a:hover{
+    background: #bbb;
+    color: black;
+    font-size: 18px;
 }
 
-section h3 {
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 2px 0 7px 0;
+main {
+    margin: 0 auto;
+    padding: 0.75rem;
+    max-width: 60rem; 
 }
-
-section p {
-    line-height: 1.5rem;
+.color img{
+    width: 100%;
 }
-
-section a {
-    display: inline-block;
-    margin-bottom: 10px;
+.color ul{
+    justify-content: space-between;
 }
-
-
-
-footer p {
-    color: white;
-    font-size: 1.2rem;
+.wireframe{
+    width: 100%;
 }
 .sameline {
     display: flex;
@@ -92,6 +80,9 @@ footer p {
     align-items: center;
 }
 
+.sameline p{
+    margin: 5px;
+}
 
 footer {
     margin: 0 auto;
@@ -100,4 +91,5 @@ footer {
     background: #180f4a;
     color: white;
     text-align: center;
+    border-radius: 10px;
 }
