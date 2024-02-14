@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development, Floriano Mathuca João Cuangana, course assignment portal">
+    <meta name="author" content="Floriano Cuangana">
+
+    <title>Floriano Mathuca João Cuangana - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+
+    <!--Facebook-->
+    <meta property="og:title" content="Floriano Mathuca João Cuangana - WDD 230 - Web Frontend Development" />
+    <meta property="og:type" content="university" />
+    <meta name="og:description"
+        content=" WDD 230 - Web Frontend Development, Floriano Mathuca João Cuangana, course assignment portal">
+    <meta property="og:url" content="https://yanocuangana.github.io/wdd230/index.html" />
+    <meta property="og:image" content="https://yanocuangana.github.io/wdd230/images/yano.jpg" />
+
+    <!--Twitter-->
+    <meta name="twitter:title" content="Floriano Mathuca João Cuangana - WDD 230 - Web Frontend Development ">
+    <meta name="twitter:description"
+        content=" WDD 230 - Web Frontend Development, Floriano Mathuca João Cuangana, course assignment portal">
+    <meta name="twitter:image" content=" https://yanocuangana.github.io/wdd230/images/yano.jpg">
+</head>
+
+<body>
+    <header>
+
+        <img src="images/yano.jpg" alt="">
+        <h1>Floriano Cuangana</h1>
+        <div class="mobile-menu-icon"><button onclick="menuShow()"><img class='icon' src="favicon/menu_white_36dp.svg"
+                    alt=""></button></div>
+    </header>
+
+    <nav>
+        <div class="link">
+            <a href="#">Home</a>
+            <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+            <a href="#">Chamber</a>
+            <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng">Scripture</a>
+        </div>
+
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Chamber</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
+            <li class="nav-item"><a class="nav-link"
+                    href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng">Scripture</a></li>
+        </ul>
+    </div>
+
+
+
+    <main>
+        <div class="hero">
+            <picture>
+                <img class="temple1" src="images/Templo_SUD_de_Campinas.webp" alt="">
+                <img class="temple2" src="images/campinas_brazil_temple_lds.webp" alt="">
+            </picture>
+            <div class="herolabel">
+                <p>Campinas Brazil Temple</p>
+            </div>
+        </div>
+        <h2>WDD 230: Web Frontend Development</h2>
+        <hr class="line">
+        <div class="card1">
+            <section class="card card2">
+
+                <h3>Learning Activities</h3>
+                <ul>
+                    <li>
+                        <a href="#">Holy Layout | Js Pen</a>
+                    </li>
+                    <li>
+                        <a href="#">Media Query | Design Principles Document</a>
+                    </li>
+                    <li>
+                        <a href="#">Media Query | Design Principles Document</a>
+                    </li>
+                    <li>
+                        <a href="#">Media Query | Design Principles Document</a>
+                    </li>
+                    <li>
+                        <a href="#">Media Query | Design Principles Document</a>
+                    </li>
+
+
+                </ul>
+
+            </section>
+            <section class="card card3">
+
+                <h3>Information</h3>
+                <p>Luanda, Angola</p>
+                <p>&#x1F31E; 29°C - Sunshine</p>
+                <p>Page Visits:</p>
+            </section>
+        </div>
+    </main>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15767.691586840217!2d13.48586255!3d-8.88676085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sao!4v1706706367169!5m2!1spt-PT!2sao"
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+        <div class="sameline">
+            <p>&copy;<span id="year"></span></p>
+            <p>Floriano Mathuca João Cuangana </p>
+            <p>Angola</p>
+        </div>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+@media only screen and (max-width: 650px) {
+    header {
+        background: skyblue;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:space-between;
+        align-items:center;
+    
+    }
+    .link {
+        display: none;
+        flex-flow: row wrap;
+        height: 200px;
+        background: black;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .link a{
+        margin: 0;
+    }
+    .link a:hover {
+        background: skyblue;
+        width: 20%;
+        color: black;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 900;
+    
+    }
+    
+    .card2 {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .card2 p {
+        text-align: center;
+    }
+
+    .card3 {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .sameline {
+        display: block;
+    }
+
+    footer {
+        background: skyblue;
+        width: 100%;
+        height: auto;
+    }
+
+    footer p {
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .mobile-menu-icon{
+        display:block;
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu-icon .icon{
+        width: 30px;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem; 
+        background: black;
+        margin: 0;
+    }
+
+    .mobile-menu a{
+        color: white;
+    }
+
+    .mobile-menu a:hover{
+        background: skyblue;
+        width: 20%;
+        color: black;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open{
+        display: block;
+    }
+}
