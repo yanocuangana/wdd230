@@ -5,9 +5,14 @@
 }
 
 body {
+<<<<<<< HEAD
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     max-width: 60rem;
+=======
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+>>>>>>> 4eb321affe6fd4dddd321065346491646f1e26a3
 }
 
 img {
@@ -22,6 +27,7 @@ header {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     margin: 0 auto;
     padding: 0.75rem;
     max-width: 60rem;
@@ -30,6 +36,10 @@ nav{
     margin: 0 auto;
     max-width: 60rem;
 }
+=======
+
+}
+>>>>>>> 4eb321affe6fd4dddd321065346491646f1e26a3
 
 h1 {
     font-family: 'Lobster', cursive;
@@ -68,6 +78,7 @@ main h2 {
     margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 main{
     margin: 0 auto;
     
@@ -108,6 +119,8 @@ main{
 	font-size: 1.5rem;
 	font-family:"Great Vibes", serif;
 }
+=======
+>>>>>>> 4eb321affe6fd4dddd321065346491646f1e26a3
 .line {
     margin-top: 0;
     width: 90%;
@@ -174,10 +187,14 @@ h3,
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
 }
 
 .sameline p{
     margin: 5px;
+=======
+
+>>>>>>> 4eb321affe6fd4dddd321065346491646f1e26a3
 }
 
 footer {
@@ -186,9 +203,12 @@ footer {
     width: 100%;
     margin-top: 100px;
     text-align: center;
+<<<<<<< HEAD
     margin: 0 auto;
     
     max-width: 60rem;
+=======
+>>>>>>> 4eb321affe6fd4dddd321065346491646f1e26a3
 }
 
 .mobile-menu-icon{
@@ -198,4 +218,11 @@ footer {
 .mobile-menu {
     display: none;
 }
+<<<<<<< HEAD
+=======
+iframe{
+    width: 100%;
+    margin-top: 5px;
+}
+>>>>>>> 4eb321affe6fd4dddd321065346491646f1e26a3
 
