@@ -57,11 +57,12 @@ nav {
 }
 /* Main */
 main {
+    display: flex;
+    flex-flow: row wrap;
     margin: 0 auto;
     padding: 0.75rem;
     max-width: 60rem;
-    display: grid;
-    gap: 20px;
+
 }
 #hero{
     margin-top: -12px;
@@ -76,15 +77,8 @@ p{
 
 section{
     background-color: #acabb1;
-    border: 1px solid red;
-    display: inline-block;
-    margin-top: 80px;
-    
-    margin-left: 5%;
-    margin-right: 5%;
     text-align: center;
-    padding: 5%;
-    width: 90%;
+    
 }
 
 section img{
@@ -93,6 +87,7 @@ section img{
 
 section>div{
     padding: 10px;
+   
 }
 
 section p {
@@ -104,7 +99,6 @@ section p {
     width: 30%;
     padding: 20px;
     margin: 1%;
-    border: 1px solid #ff2978;
     border-radius: 10px;
     cursor: pointer;
 }
