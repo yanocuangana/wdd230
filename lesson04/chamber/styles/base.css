@@ -94,7 +94,7 @@ section p {
     line-height: 1.5rem;
 }
 
-.card{
+.card, .spot{
     display: inline-block;
     width: 30%;
     padding: 20px;
@@ -113,3 +113,13 @@ footer {
     text-align: center;
     border-radius: 10px;
 }
+
+/* MOBILE */
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
